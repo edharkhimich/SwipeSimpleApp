@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/image_countries"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/green"
+            />
+
+        <TextView
+            android:id="@+id/countriesTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/image_countries"
+            />
+
+        <TextView
+            android:id="@+id/countriesTv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:layout_below="@+id/countriesTv"
+            android:layout_toRightOf="@+id/image_countries"
+            />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_details"
+            android:layout_marginRight="7dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/white"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

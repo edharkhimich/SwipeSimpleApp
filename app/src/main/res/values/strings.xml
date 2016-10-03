@@ -1,0 +1,19 @@
+<resources>
+    <string name="lorem_ipsum">FirstFragment</string>
+    <string name="second">Second</string>
+    <string name="first">First</string>
+    <string name="app_name">Test app</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_item_home">Line 1</string>
+    <string name="drawer_item_free_play">Line 2</string>
+    <string name="drawer_item_custom">Line 3</string>
+    <string name="drawer_item_settings">Next Group</string>
+    <string name="drawer_item_help">Line 4</string>
+    <string name="drawer_item_open_source">Line 5</string>
+    <string name="drawer_item_contact">Contact</string>
+    <string name="available">Available</string>
+    <string name="second_group">Second group</string>
+    <string name="first_group">First group</string>
+    <string name="search">Search</string>
+    <string name="population">Population: \u0020 </string>
+</resources>
